@@ -32,6 +32,8 @@ def open_file_dialog():
                 insert_2="|"+value
                 line=line[:position]+insert_2+line[position:]
             f.write(line)
+            
+    # 执行完成后弹出提醒框
     messagebox.showinfo("提醒", "操作已完成")
         
 # 创建选择文件按钮
